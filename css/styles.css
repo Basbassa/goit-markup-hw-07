@@ -17,7 +17,7 @@ a {
   margin: 0 auto;
 }
 
-.cont-class {
+.header__class {
   display: flex;
   justify-content: space-between;
 }
@@ -61,16 +61,13 @@ a {
   margin: 0 auto;
 }
 
-.nav-flex {
+.header__nav-flex {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.nav-flex2 {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+.header__nav-flex--gap {
   gap: 50px;
 }
 
@@ -196,10 +193,6 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
 .all-links :focus {
   color: var(--color-focus);
   cursor: pointer;
@@ -214,6 +207,7 @@ a {
   letter-spacing: 0, 6em;
   text-align: center;
   padding-top: 200px;
+  text-transform: uppercase;
 }
 
 .description-big-letters {
@@ -223,6 +217,7 @@ a {
   letter-spacing: 0, 3em;
   color: var(--color-button-portf);
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .description-small-letters {
@@ -397,7 +392,7 @@ a {
   background-color: var(--color-white);
 }
 
-.header-background-color {
+.header__ {
   background-color: var(--color-white);
   border-bottom: 1px solid var(--color-nav-border);
   padding: 32px;
@@ -457,6 +452,7 @@ a {
   color: var(--color-white);
   z-index: 1;
   margin-bottom: 3px;
+  text-transform: uppercase;
 }
 
 .social-ull-team {
@@ -492,6 +488,7 @@ a {
   font-size: 14px;
   line-height: 0.8;
   letter-spacing: 0, 3em;
+  text-transform: uppercase;
 }
 
 .social-div-footer {
