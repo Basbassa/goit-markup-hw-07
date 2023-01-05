@@ -116,6 +116,8 @@ a {
   gap: 50px;
 }
 
+/* main-page  */
+
 .headlamp__description-h1 {
   font-weight: 900;
   font-size: 44px;
@@ -202,8 +204,8 @@ a {
 }
 
 .skills__ {
- list-style-type: none; 
- display: flex;
+  list-style-type: none;
+  display: flex;
   gap: 30px;
   margin-bottom: 94px;
 }
@@ -229,7 +231,6 @@ a {
   margin-bottom: 3px;
   text-transform: uppercase;
 }
-
 
 .team__ {
   background-color: var(--color-half-white);
@@ -279,7 +280,6 @@ a {
   justify-content: space-around;
   align-items: center;
   gap: 5px;
-  
 }
 
 .team__social-icons {
@@ -310,6 +310,33 @@ a {
   text-align: center;
 }
 
+.clients__ {
+  fill: var(--color-social-icons);
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.clients__clients-icons {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--color-social-icons);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients__clients-icons:hover,
+.clients__clients-icons:focus,
+.clients__clients-icons:active {
+  fill: var(--color-mainblue);
+  border-color: var(--color-mainblue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* footer */
 
 .flex-buttons-portf {
   display: flex;
@@ -402,7 +429,6 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .font-footer-logo {
   font-family: "Raleway", sans-serif;
   display: inline-block;
@@ -433,7 +459,6 @@ a {
 .margin-bottom__ {
   margin-bottom: 94px;
 } */
- 
 
 .description-bold {
   font-weight: 700;
@@ -511,33 +536,9 @@ a {
   gap: 10px;
   fill: var(--color-white);
   margin-top: 20px;
-
 }
 
-.clients {
-  fill: var(--color-social-icons);
-  display: flex;
-  justify-content: space-around;
-}
-
-.clients-icons {
-  width: 170px;
-  height: 92px;
-  border: 1px solid var(--color-social-icons);
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.clients-icons:hover,
-.clients-icons:focus,
-.clients-icons:active {
-  fill: var(--color-mainblue);
-  border-color: var(--color-mainblue);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+/* portfolio  */
 
 .box-shadow-portf:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.06);
@@ -553,6 +554,9 @@ a {
 
 .footer-all {
   display: flex;
+}
+
+.first-half-footer {
 }
 
 .second-half-footer {
