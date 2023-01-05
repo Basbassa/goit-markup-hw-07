@@ -75,7 +75,6 @@ a {
   gap: 30px;
 }
 
-
 .flex {
   display: flex;
 }
@@ -258,7 +257,7 @@ a {
   padding-bottom: 30px;
 }
 
-.logo {
+.header__logo {
   font-family: "Raleway", sans-serif;
 }
 
@@ -268,7 +267,7 @@ a {
   margin-bottom: 20px;
 }
 
-.web {
+.logo__web {
   color: var(--color-mainblue);
   font-weight: 700;
   font-size: 26px;
@@ -276,7 +275,7 @@ a {
   letter-spacing: 0, 3em;
 }
 
-.studio {
+.logo__studio {
   color: var(--color-studio);
   font-weight: 400;
   font-size: 26px;
@@ -284,11 +283,8 @@ a {
   margin-right: 93px;
 }
 
-.studio-white {
+.logo__studio--white {
   color: var(--color-white);
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 1.17;
 }
 
 .margin-bottom {
@@ -340,7 +336,7 @@ a {
   margin-bottom: -7.5px;
 }
 
-.header-mail-phone {
+.header__mail-phone {
   color: var(--color-header-mail-phone);
 }
 
@@ -410,7 +406,7 @@ a {
   letter-spacing: 0, 3em;
 }
 
-.mail-hover :hover {
+.mail-hover__ :hover {
   text-decoration: underline;
 }
 
@@ -418,7 +414,7 @@ a {
   color: var(--color-addres-grey);
 }
 
-.contact-icon {
+.header__contact-icon {
   vertical-align: middle;
   margin-right: 10px;
   fill: currentColor;
