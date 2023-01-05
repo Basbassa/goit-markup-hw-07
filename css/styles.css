@@ -185,6 +185,45 @@ a {
   color: var(--color-description-small-letters);
 }
 
+.main-page__description-main {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0, 3em;
+  text-align: center;
+}
+
+.skills__what-we-do-photo {
+  position: relative;
+}
+
+.skills__what-we-do {
+  position: absolute;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0, 3em;
+  text-align: center;
+  padding: 27px 90px;
+  color: var(--color-white);
+  z-index: 1;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+
+.main-page__section-clients {
+  margin-top: 94px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.8;
+  letter-spacing: 0, 3em;
+  text-align: center;
+}
+
 .flex-main__ {
   display: flex;
   gap: 30px;
@@ -282,14 +321,6 @@ a {
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.description-main {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0, 3em;
-  text-align: center;
 }
 
 .main-page-other-background {
@@ -424,28 +455,6 @@ a {
   color: var(--color-addres-grey);
 }
 
-.what-we-do-photo {
-  position: relative;
-}
-
-.what-we-do {
-  position: absolute;
-  bottom: 0;
-  width: 370px;
-  height: 70px;
-  background-color: rgba(47, 48, 58, 0.8);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0, 3em;
-  text-align: center;
-  padding: 27px 90px;
-  color: var(--color-white);
-  z-index: 1;
-  margin-bottom: 3px;
-  text-transform: uppercase;
-}
-
 .social-ull-team {
   display: flex;
   justify-content: space-around;
@@ -487,15 +496,6 @@ a {
   gap: 10px;
   fill: var(--color-white);
   margin-top: 20px;
-}
-
-.section-clients {
-  margin-top: 94px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 0.8;
-  letter-spacing: 0, 3em;
-  text-align: center;
 }
 
 .clients {
