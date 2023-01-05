@@ -115,7 +115,17 @@ a {
   gap: 50px;
 }
 
-.box-h1 {
+.headlamp__description-h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0, 6em;
+  text-align: center;
+  padding-top: 200px;
+  text-transform: uppercase;
+}
+
+.headlamp__box-h1 {
   max-width: 1600px;
   background-image: url("../images/banners/main-banner.jpg"),
     linear-gradient(90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%);
@@ -125,6 +135,31 @@ a {
   color: var(--color-white);
   text-align: center;
   margin: 0 auto;
+}
+
+.headlamp__button-main {
+  background-color: var(--color-mainblue);
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-bottom: 200px;
+  border: 0;
+}
+
+.headlamp__button-main:hover,
+.headlamp__button-main:focus {
+  background-color: var(--color-white);
+  color: var(--color-mainblue);
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .flex-main {
@@ -148,32 +183,6 @@ a {
   flex-basis: calc((100% - 20px) / 3);
   gap: 30px;
   margin-bottom: 94px;
-}
-
-.button-main {
-  :inline-block ;
-  background-color: var(--color-mainblue);
-  color: var(--color-white);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.06em;
-  text-align: center;
-  width: 200px;
-  height: 50px;
-  border-radius: 4px;
-  margin-top: 40px;
-  margin-bottom: 200px;
-  border: 0;
-}
-
-.button-main:hover,
-.button-main:focus {
-  background-color: var(--color-white);
-  color: var(--color-mainblue);
-  cursor: pointer;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-portf {
@@ -250,16 +259,6 @@ a {
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.description-h1 {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0, 6em;
-  text-align: center;
-  padding-top: 200px;
-  text-transform: uppercase;
 }
 
 .description-big-letters {
