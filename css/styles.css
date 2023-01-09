@@ -77,8 +77,6 @@ a {
   color: var(--color-white);
 }
 
-
-
 /* header */
 
 .header__ {
@@ -178,7 +176,6 @@ a {
   text-transform: uppercase;
 }
 
-
 .headlamp__button-main {
   background-color: var(--color-mainblue);
   color: var(--color-white);
@@ -250,6 +247,7 @@ a {
 
 .skills__what-we-do-photo {
   position: relative;
+  margin-top: 50px;
 }
 
 .skills__what-we-do {
