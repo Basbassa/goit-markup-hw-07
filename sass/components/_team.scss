@@ -1,0 +1,68 @@
+.team__ {
+  background-color: var(--color-half-white);
+
+  &__ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+  }
+
+  &__box-shadow-main {
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.14);
+  }
+
+  &__img-main-no-gap {
+    display: block;
+  }
+
+  &__description-human {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0, 3em;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: -1px;
+  }
+
+  &__description-human-occupation {
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0, 3em;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  &__figcaption-main {
+    background-color: var(--color-white);
+    border-right: 2px solid var(--color-border-figacap);
+    border-left: 2px solid var(--color-border-figacap);
+    border-bottom: 2px solid var(--color-border-figacap);
+  }
+
+  &__social-ull-team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+  }
+
+  &__social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    fill: var(--color-social-icons);
+    margin-bottom: 30px;
+  }
+
+  &__social-icons:hover {
+    fill: var(--color-white);
+    background-color: var(--color-mainblue);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}

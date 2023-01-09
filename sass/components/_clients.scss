@@ -1,0 +1,25 @@
+.clients__ {
+  fill: var(--color-social-icons);
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+
+  &__clients-icons {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--color-social-icons);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__clients-icons:hover,
+  &__clients-icons:focus,
+  &__clients-icons:active {
+    fill: var(--color-mainblue);
+    border-color: var(--color-mainblue);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

@@ -40,7 +40,6 @@ a {
   --color-header-mail-phone: rgb(117, 117, 117);
   --color-nav-border: #ccc;
   --color-social-icons: rgba(175, 177, 184, 1);
-  --color-social-icons-footer-backg: rgba(255, 255, 255, 0.1);
   --color-footer-mail-border: rgba(255, 255, 255, 0.3);
   --color-border-form-modal: rgba(33, 33, 33, 0.2);
 }
@@ -51,6 +50,12 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.mail-hover__ :hover {
+  text-decoration: underline;
+}
+
+/* logo */
 
 .logo__web {
   color: var(--color-mainblue);
@@ -72,9 +77,7 @@ a {
   color: var(--color-white);
 }
 
-.mail-hover__ :hover {
-  text-decoration: underline;
-}
+
 
 /* header */
 
@@ -153,16 +156,6 @@ a {
 
 /* main-page  */
 
-.headlamp__description-h1 {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0, 6em;
-  text-align: center;
-  padding-top: 200px;
-  text-transform: uppercase;
-}
-
 .headlamp__box-h1 {
   max-width: 1600px;
   background-image: url("../images/banners/main-banner.jpg"),
@@ -174,6 +167,17 @@ a {
   text-align: center;
   margin: 0 auto;
 }
+
+.headlamp__description-h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0, 6em;
+  text-align: center;
+  padding-top: 200px;
+  text-transform: uppercase;
+}
+
 
 .headlamp__button-main {
   background-color: var(--color-mainblue);
@@ -414,7 +418,7 @@ a {
   letter-spacing: 0, 3em;
 }
 
-.footer__address-grey {
+.footer__address--grey {
   color: var(--color-addres-grey);
 }
 
@@ -624,26 +628,6 @@ a {
 
 /* modal */
 
-.is-hidden {
-  pointer-events: none;
-  visibility: hidden;
-  opacity: 0;
-}
-
-.backdrop {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2;
-}
-
-.backdrop.is-hidden .modal__ {
-  transform: translate(-50%, -50%) scale(0.4);
-}
-
 .modal__ {
   position: absolute;
   top: 50%;
@@ -835,4 +819,24 @@ textarea {
 
 .checkbox input[type="checkbox"]:checked + svg {
   opacity: 1;
+}
+
+.is-hidden {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.backdrop.is-hidden .modal__ {
+  transform: translate(-50%, -50%) scale(0.4);
 }
