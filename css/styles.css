@@ -94,7 +94,7 @@ a {
   list-style-type: none;
 }
 
-.header__nav-ul-a {
+.header__links {
   color: var(--color-nav-ul-a);
   font-weight: 500;
   font-size: 14px;
@@ -103,7 +103,7 @@ a {
   padding: 32px;
 }
 
-.header__nav-ul :hover {
+.header__links :hover {
   color: var(--color-mainblue);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -176,7 +176,7 @@ a {
   text-transform: uppercase;
 }
 
-.headlamp__button-main {
+.headlamp__button {
   background-color: var(--color-mainblue);
   color: var(--color-white);
   font-weight: 700;
@@ -192,8 +192,8 @@ a {
   border: 0;
 }
 
-.headlamp__button-main:hover,
-.headlamp__button-main:focus {
+.headlamp__button:hover,
+.headlamp__button:focus {
   background-color: var(--color-white);
   color: var(--color-mainblue);
   cursor: pointer;
@@ -211,7 +211,7 @@ a {
   margin-bottom: 30px;
 }
 
-.lorem__description-big-letters {
+.lorem__description {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
@@ -221,7 +221,7 @@ a {
   text-transform: uppercase;
 }
 
-.lorem__description-small-letters {
+.lorem__description-small {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
