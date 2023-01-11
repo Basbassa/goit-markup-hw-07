@@ -376,9 +376,11 @@ a {
 
 .footer__ {
   background-color: var(--color-footer);
+
+  
 }
 
-.footer__generally {
+.footer__flex {
   display: flex;
   padding-top: 60px;
 }

@@ -4,12 +4,14 @@
   font-size: 26px;
   line-height: 1.17;
   letter-spacing: 0, 3em;
+}
 
-  &__studio {
-    color: var(--color-studio);
-    font-weight: 400;
-    margin-right: 93px;
-  }
+.logo__studio {
+  color: var(--color-studio);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.17;
+  margin-right: 93px;
 
   &--white {
     color: var(--color-white);
