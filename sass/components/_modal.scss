@@ -14,7 +14,7 @@
   z-index: 2;
 }
 
-.modal__ {
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -28,10 +28,6 @@
   transition-property: transform;
   transition-duration: 1s;
   transition-timing-function: ease;
-
-  .backdrop.is-hidden & {
-    transform: translate(-50%, -50%) scale(0.4);
-  }
 
   &__modal-close {
     position: absolute;
@@ -99,9 +95,9 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  &__modal-form:has (> &__my-input:hover),
-  &__modal-form:has (> &__my-input:focus),
-  &__modal-form:has (> &__my-input:active) {
+  &__modal-form:has (> .&__my-input:hover),
+  &__modal-form:has (> .&__my-input:focus),
+  &__modal-form:has (> .&__my-input:active) {
     fill: var(--color-mainblue);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -208,5 +204,9 @@
 
   .checkbox input[type="checkbox"]:checked + svg {
     opacity: 1;
+  }
+
+  .backdrop.is-hidden & {
+    transform: translate(-50%, -50%) scale(0.4);
   }
 }

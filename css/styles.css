@@ -493,7 +493,7 @@ a {
 
 /* portfolio  */
 
-.portf__ {
+.portf {
   background-color: var(--color-white);
 }
 
@@ -512,7 +512,7 @@ a {
   margin-bottom: 94px;
 }
 
-.portf__button-portf {
+.portf__button {
   display: inline-block;
   background-color: var(--color-half-white);
   color: var(--color-button-portf);
@@ -581,7 +581,7 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portf__description--bold {
+.portf__description {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -591,7 +591,7 @@ a {
   padding-left: 24px;
 }
 
-.portf__description--normal {
+.portf__description--thin {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0, 3em;
@@ -606,19 +606,13 @@ a {
   overflow: hidden;
 }
 
-.portf__figcaption-portf {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
 .portf__zindex-3 {
   z-index: 3;
   position: relative;
   background-color: var(--color-white);
 }
 
-.portf__box-shadow-portf:hover {
+.portf__shadow:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.06);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -626,7 +620,7 @@ a {
 
 /* modal */
 
-.modal__ {
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -835,6 +829,6 @@ textarea {
   z-index: 2;
 }
 
-.backdrop.is-hidden .modal__ {
+.backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.4);
 }

@@ -1,5 +1,7 @@
-.portf__ {
+.portf {
   background-color: var(--color-white);
+
+  @extend .container;
 
   &__flex-buttons {
     display: flex;
@@ -16,7 +18,7 @@
     margin-bottom: 94px;
   }
 
-  &__button-portf {
+  &__button {
     display: inline-block;
     background-color: var(--color-half-white);
     color: var(--color-button-portf);
@@ -79,13 +81,13 @@
     position: relative;
   }
 
-  &__schedule-li:hover .portf__box-figure .portf__overlay-figure {
+  &__schedule-li:hover .&__box-figure .&__overlay-figure {
     transform: translatey(0);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  &__description--bold {
+  &__description {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -93,27 +95,21 @@
     color: var(--color-button-portf);
     padding-top: 20px;
     padding-left: 24px;
-  }
 
-  &--normal {
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0, 3em;
-    color: var(--color-description-small-letters);
-    padding-bottom: 2px;
-    padding-left: 24px;
-    padding-bottom: 20px;
+    &--thin {
+      font-size: 16px;
+      line-height: 1.87;
+      letter-spacing: 0, 3em;
+      color: var(--color-description-small-letters);
+      padding-bottom: 2px;
+      padding-left: 24px;
+      padding-bottom: 20px;
+    }
   }
 
   &__figure-border {
     border: 1px solid var(--color-border-figacap);
     overflow: hidden;
-  }
-
-  &__figcaption-portf {
-    position: relative;
-    display: flex;
-    align-items: center;
   }
 
   &__zindex-3 {
@@ -122,7 +118,7 @@
     background-color: var(--color-white);
   }
 
-  &__box-shadow-portf:hover {
+  &__shadow:hover {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.06);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
