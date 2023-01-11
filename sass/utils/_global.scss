@@ -21,11 +21,11 @@ a {
   padding: 94px 0px;
 }
 
-.mail-hover__ :hover {
+.mail-hover :hover {
   text-decoration: underline;
 }
 
-.all-links__ :focus {
+.all-links :focus {
   color: var(--color-focus);
   cursor: pointer;
   transition-duration: 250ms;

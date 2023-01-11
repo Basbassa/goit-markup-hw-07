@@ -79,7 +79,7 @@ a {
 
 /* header */
 
-.header__ {
+.header {
   background-color: var(--color-white);
   border-bottom: 1px solid var(--color-nav-border);
   padding: 32px;
