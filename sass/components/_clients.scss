@@ -1,10 +1,14 @@
-.clients__ {
+@extend .container;
+@extend .main-page__section-clients;
+@extend .section;
+
+.clients {
   fill: var(--color-social-icons);
   display: flex;
   justify-content: space-around;
   list-style-type: none;
 
-  &__clients-icons {
+  &__icons {
     width: 170px;
     height: 92px;
     border: 1px solid var(--color-social-icons);
@@ -14,9 +18,9 @@
     align-items: center;
   }
 
-  &__clients-icons:hover,
-  &__clients-icons:focus,
-  &__clients-icons:active {
+  &__icons:hover,
+  &__icons:focus,
+  &__icons:active {
     fill: var(--color-mainblue);
     border-color: var(--color-mainblue);
     transition-duration: 250ms;

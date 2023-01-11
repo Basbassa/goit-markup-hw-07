@@ -1,5 +1,9 @@
-.team__ {
+.team {
   background-color: var(--color-half-white);
+
+  @extend .main-page__description-main;
+  @extend .container;
+  @extend .section;
 
   &__ul {
     list-style-type: none;
@@ -7,15 +11,15 @@
     gap: 30px;
   }
 
-  &__box-shadow-main {
+  &__shadow {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.14);
   }
 
-  &__img-main-no-gap {
+  &__img {
     display: block;
   }
 
-  &__description-human {
+  &__description {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
@@ -23,31 +27,31 @@
     text-align: center;
     padding-top: 30px;
     margin-top: -1px;
+
+    &--occupation {
+      font-size: 16px;
+      line-height: 1.17;
+      letter-spacing: 0, 3em;
+      text-align: center;
+      padding-bottom: 30px;
+    }
   }
 
-  &__description-human-occupation {
-    font-size: 16px;
-    line-height: 1.17;
-    letter-spacing: 0, 3em;
-    text-align: center;
-    padding-bottom: 30px;
-  }
-
-  &__figcaption-main {
+  &__figcap {
     background-color: var(--color-white);
     border-right: 2px solid var(--color-border-figacap);
     border-left: 2px solid var(--color-border-figacap);
     border-bottom: 2px solid var(--color-border-figacap);
   }
 
-  &__social-ull-team {
+  &__ull {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 5px;
   }
 
-  &__social-icons {
+  &__icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +63,7 @@
     margin-bottom: 30px;
   }
 
-  &__social-icons:hover {
+  &__icons:hover {
     fill: var(--color-white);
     background-color: var(--color-mainblue);
     border-radius: 50%;

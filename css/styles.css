@@ -268,7 +268,7 @@ a {
   text-transform: uppercase;
 }
 
-.team__ {
+.team {
   background-color: var(--color-half-white);
 }
 
@@ -278,15 +278,15 @@ a {
   gap: 30px;
 }
 
-.team__box-shadow-main {
+.team__shadow {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.14);
 }
 
-.team__img-main-no-gap {
+.team__img {
   display: block;
 }
 
-.team__description-human {
+.team__description {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
@@ -296,7 +296,7 @@ a {
   margin-top: -1px;
 }
 
-.team__description-human-occupation {
+.team__description--occupation {
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0, 3em;
@@ -304,21 +304,21 @@ a {
   padding-bottom: 30px;
 }
 
-.team__figcaption-main {
+.team__figcap {
   background-color: var(--color-white);
   border-right: 2px solid var(--color-border-figacap);
   border-left: 2px solid var(--color-border-figacap);
   border-bottom: 2px solid var(--color-border-figacap);
 }
 
-.team__social-ull-team {
+.team__ull {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 5px;
 }
 
-.team__social-icons {
+.team__icons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -330,7 +330,7 @@ a {
   margin-bottom: 30px;
 }
 
-.team__social-icons:hover {
+.team__icons:hover {
   fill: var(--color-white);
   background-color: var(--color-mainblue);
   border-radius: 50%;
@@ -346,14 +346,14 @@ a {
   text-align: center;
 }
 
-.clients__ {
+.clients {
   fill: var(--color-social-icons);
   display: flex;
   justify-content: space-around;
   list-style-type: none;
 }
 
-.clients__clients-icons {
+.clients__icons {
   width: 170px;
   height: 92px;
   border: 1px solid var(--color-social-icons);
@@ -363,9 +363,9 @@ a {
   align-items: center;
 }
 
-.clients__clients-icons:hover,
-.clients__clients-icons:focus,
-.clients__clients-icons:active {
+.clients__icons:hover,
+.clients__icons:focus,
+.clients__icons:active {
   fill: var(--color-mainblue);
   border-color: var(--color-mainblue);
   transition-duration: 250ms;
