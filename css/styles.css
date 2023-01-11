@@ -245,12 +245,12 @@ a {
   margin-bottom: 94px;
 }
 
-.skills__what-we-do-photo {
+.skills__photo {
   position: relative;
   margin-top: 50px;
 }
 
-.skills__what-we-do {
+.skills__we-do {
   position: absolute;
   bottom: 0;
   width: 370px;

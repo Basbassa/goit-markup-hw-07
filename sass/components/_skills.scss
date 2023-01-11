@@ -4,12 +4,14 @@
   gap: 30px;
   margin-bottom: 94px;
 
-  &__what-we-do-photo {
+  @extend .main-page__description-main;
+
+  &__photo {
     position: relative;
     margin-top: 50px;
   }
 
-  &__what-we-do {
+  &__we-do {
     position: absolute;
     bottom: 0;
     width: 370px;
