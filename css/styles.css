@@ -702,13 +702,14 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/*
 .modal__modal-form:has (> .modal__my-input:hover),
 .modal__modal-form:has (> .modal__my-input:focus),
 .modal__modal-form:has (> .modal__my-input:active) {
   fill: var(--color-mainblue);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .modal__focus-fill-ic:focus-within {
   fill: var(--color-mainblue);

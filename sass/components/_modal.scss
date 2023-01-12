@@ -95,14 +95,6 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  &__modal-form:has(> &__my-input:hover),
-  &__modal-form:has(> &__my-input:focus),
-  &__modal-form:has(> &__my-input:active) {
-    fill: var(--color-mainblue);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
   &__focus-fill-ic:focus-within {
     fill: var(--color-mainblue);
   }
