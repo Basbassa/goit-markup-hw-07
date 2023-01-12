@@ -1,12 +1,12 @@
-@extend .container;
-@extend .main-page__section-clients;
-@extend .section;
-
 .clients {
   fill: var(--color-social-icons);
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+
+  @extend .container;
+  @extend .main-page__section-clients;
+  @extend .section;
 
   &__icons {
     width: 170px;
