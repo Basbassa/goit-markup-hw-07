@@ -30,13 +30,13 @@
     border-radius: 4px;
     padding: 6px 22px;
     margin-right: 8px;
-    margin-bottom: 50px;
+    
     border: 0;
   }
 
-  &__buttons-hov :hover,
-  &__buttons-hov :focus,
-  &__buttons-hov :active {
+  &__buttons-hov:hover,
+  &__buttons-hov:focus,
+  &__buttons-hov:active {
     background-color: $color-mainBlue;
     cursor: pointer;
     color: $color-mainWhite;
