@@ -4,8 +4,8 @@
     linear-gradient(90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%);
   background-size: 1600px;
   background-position: center;
-  background-color: var(--color-h1);
-  color: var(--color-white);
+  background-color: $color-colorH1AndFooter;
+  color: $color-mainWhite;
   text-align: center;
   margin: 0 auto;
 
@@ -20,8 +20,8 @@
   }
 
   &__button {
-    background-color: var(--color-mainblue);
-    color: var(--color-white);
+    background-color: $color-mainBlue;
+    color: $color-mainWhite;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
@@ -37,8 +37,8 @@
 
   &__button:hover,
   &__button:focus {
-    background-color: var(--color-white);
-    color: var(--color-mainblue);
+    background-color: $color-mainWhite;
+    color: $color-mainBlue;
     cursor: pointer;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

@@ -1,6 +1,6 @@
 .header {
-  background-color: var(--color-white);
-  border-bottom: 1px solid var(--color-nav-border);
+  background-color: $color-mainWhite;
+  border-bottom: 1px solid $color-HeaderNavBorder;
   padding: 32px;
 
   @extend .container;
@@ -17,7 +17,7 @@
   }
 
   &__links {
-    color: var(--color-nav-ul-a);
+    color: $color-HeaderNavUlA;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
@@ -26,14 +26,14 @@
   }
 
   &__links :hover {
-    color: var(--color-mainblue);
+    color: $color-mainBlue;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   &__active-link {
     position: relative;
-    color: var(--color-mainblue);
+    color: $color-mainBlue;
   }
 
   &__active-link::after {
@@ -44,13 +44,13 @@
     transform: translateX(-50%);
     width: 58px;
     height: 4px;
-    background-color: var(--color-mainblue);
+    background-color: $color-mainBlue;
     border-radius: 2px;
     margin-bottom: -7.5px;
   }
 
   &__mail-phone {
-    color: var(--color-header-mail-phone);
+    color: $color-HeaderMailPhone;
   }
 
   &__contact-icon {

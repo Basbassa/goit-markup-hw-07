@@ -1,8 +1,8 @@
 .team {
-  background-color: var(--color-half-white);
+  background-color: $color-halfWhite;
 
   @extend .main-page__description-main;
-  @extend .container;
+  
   @extend .section;
 
   &__ul {
@@ -29,19 +29,21 @@
     margin-top: -1px;
 
     &--occupation {
-      font-size: 16px;
+      font-weight: 400
+      font-size: 16px;;
       line-height: 1.17;
       letter-spacing: 0, 3em;
       text-align: center;
+      font-style: normal;
       padding-bottom: 30px;
     }
   }
 
   &__figcap {
-    background-color: var(--color-white);
-    border-right: 2px solid var(--color-border-figacap);
-    border-left: 2px solid var(--color-border-figacap);
-    border-bottom: 2px solid var(--color-border-figacap);
+    background-color: $color-mainWhite;
+    border-right: 2px solid $color-BorderFigacap;
+    border-left: 2px solid $color-BorderFigacap;
+    border-bottom: 2px solid $color-BorderFigacap;
   }
 
   &__ull {
@@ -59,13 +61,13 @@
     width: 44px;
     height: 44px;
     cursor: pointer;
-    fill: var(--color-social-icons);
+    fill: $color-SocialIcons;
     margin-bottom: 30px;
   }
 
   &__icons:hover {
-    fill: var(--color-white);
-    background-color: var(--color-mainblue);
+    fill: $color-mainWhite;
+    background-color: $color-mainBlue;
     border-radius: 50%;
     cursor: pointer;
   }
