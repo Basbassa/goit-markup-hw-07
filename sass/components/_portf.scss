@@ -34,17 +34,15 @@
     border: 0;
   }
 
-  &__buttons-hov:hover,
-  &__buttons-hov:focus,
-  &__buttons-hov:active {
-    .portf__button {
-      background-color: $color-mainBlue;
-      cursor: pointer;
-      color: $color-mainWhite;
-      box-shadow: 0px 8px 1px 0px rgba(0, 0, 0, 0.14);
-      transition-duration: 250ms;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
+  &__button:hover,
+  &__button:focus,
+  &__button:active {
+    background-color: $color-mainBlue;
+    cursor: pointer;
+    color: $color-mainWhite;
+    box-shadow: 0px 8px 1px 0px rgba(0, 0, 0, 0.14);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   &__schedule-li {
