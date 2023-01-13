@@ -3,9 +3,7 @@
   border-bottom: 1px solid $color-HeaderNavBorder;
   padding: 32px;
 
-  @extend .container;
   @extend .all-links;
- 
 
   &__logo {
     font-family: "Raleway", sans-serif;
