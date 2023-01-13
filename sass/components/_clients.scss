@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  padding-top: 0;
 
   @extend .container;
   @extend .main-page__section-clients;
