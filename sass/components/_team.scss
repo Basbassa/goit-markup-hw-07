@@ -2,7 +2,7 @@
   background-color: $color-halfWhite;
 
   @extend .main-page__description-main;
-  
+
   @extend .section;
 
   &__ul {
@@ -29,8 +29,8 @@
     margin-top: -1px;
 
     &--occupation {
-      font-weight: 400
-      font-size: 16px;;
+      font-weight: 400;
+      font-size: 16px;
       line-height: 1.17;
       letter-spacing: 0, 3em;
       text-align: center;
