@@ -356,15 +356,15 @@ a {
 }
 
 .clients {
-  
+
 }
 
-.clients {
+.clients__ul {
   fill: var(--color-social-icons);
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  padding-top: 0;
+  
 }
 
 .clients__icons {
