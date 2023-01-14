@@ -201,6 +201,8 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.lorem {}
+
 .lorem__ul {
   list-style-type: none;
   display: flex;
@@ -243,6 +245,7 @@ a {
   display: flex;
   gap: 30px;
   margin-bottom: 94px;
+  justify-content: center;
 }
 
 .skills__photo {
