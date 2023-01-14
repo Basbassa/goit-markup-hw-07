@@ -202,6 +202,10 @@ a {
 }
 
 .lorem {
+
+}
+
+.lorem__ul {
   list-style-type: none;
   display: flex;
 }
@@ -349,6 +353,10 @@ a {
   line-height: 0.8;
   letter-spacing: 0, 3em;
   text-align: center;
+}
+
+.clients {
+  
 }
 
 .clients {
