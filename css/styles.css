@@ -154,7 +154,9 @@ a {
 
 /* main-page  */
 
-.headlamp__box-h1 {
+
+
+.headlamp {
   max-width: 1600px;
   background-image: url("../images/banners/main-banner.jpg"),
     linear-gradient(90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%);
