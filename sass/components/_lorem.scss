@@ -1,10 +1,6 @@
 .lorem {
-  margin: 0 auto;
-
-  &__ul {
-    list-style-type: none;
-    display: flex;
-  }
+  list-style-type: none;
+  display: flex;
 
   &__lorem {
     max-width: 270px;
@@ -19,6 +15,7 @@
     color: $color-description;
     margin-bottom: 10px;
     text-transform: uppercase;
+
     &--small {
       font-weight: 400;
       font-size: 14px;
