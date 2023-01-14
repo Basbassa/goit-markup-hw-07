@@ -239,6 +239,9 @@ a {
 }
 
 .skills {
+}
+
+.skills__ull {
   list-style-type: none;
   display: flex;
   gap: 30px;

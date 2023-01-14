@@ -12,16 +12,15 @@
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0, 3em;
-    color: $color-description;
+    color: var(--color-button-portf);
     margin-bottom: 10px;
     text-transform: uppercase;
-
     &--small {
       font-weight: 400;
       font-size: 14px;
       line-height: 1.7;
       letter-spacing: 0, 3em;
-      color: $color-color-description-small-letters;
+      color: var(--color-description-small-letters);
     }
   }
 }
