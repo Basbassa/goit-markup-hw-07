@@ -1,17 +1,21 @@
 .clients {
-  fill: var(--color-social-icons);
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
+  padding-top: 0;
 
   @extend .container;
   @extend .main-page__section-clients;
   @extend .section;
 
+  &__ul {
+    fill: $color-SocialIcons;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+
   &__icons {
     width: 170px;
     height: 92px;
-    border: 1px solid var(--color-social-icons);
+    border: 1px solid $color-SocialIcons;
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -21,8 +25,8 @@
   &__icons:hover,
   &__icons:focus,
   &__icons:active {
-    fill: var(--color-mainblue);
-    border-color: var(--color-mainblue);
+    fill: $color-mainBlue;
+    border-color: $color-mainBlue;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }

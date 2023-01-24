@@ -1,7 +1,6 @@
 .footer {
-  background-color: var(--color-footer);
+  background-color: $colorFooter;
 
-  @extend .container;
   @extend .all-links;
   @extend .mail-hover;
 
@@ -22,34 +21,35 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    background-color: #ffffff1a;
     cursor: pointer;
     width: 44px;
     height: 44px;
-    fill: var(--color-white);
+    fill: $color-mainWhite;
   }
 
   &__sm-icons:hover,
   &__sm-icons:focus {
-    background-color: var(--color-mainblue);
+    background-color: $color-mainBlue;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   &__address {
-    color: var(--color-addres);
+    color: $color-FooterAddres;
     font-style: normal;
     font-size: 1.17;
     line-height: 24px;
     letter-spacing: 0, 3em;
 
     &--grey {
-      color: var(--color-addres-grey);
+      color: $color-FooterAddresGrey;
     }
   }
 
   &__h2 {
     padding-top: 6px;
-    color: var(--color-white);
+    color: $color-mainWhite;
     font-weight: 700;
     font-size: 14px;
     line-height: 0.8;
@@ -60,7 +60,7 @@
   &__social-div-footer {
     display: flex;
     gap: 10px;
-    fill: var(--color-white);
+    fill: $color-mainWhite;
     margin-top: 20px;
   }
 
@@ -74,17 +74,17 @@
   &__label-newsletter {
     font-weight: 700;
     font-size: 14px;
-    color: var(--color-white);
+    color: $color-mainWhite;
     text-transform: uppercase;
   }
 
   &__input {
-    background-color: var(--color-h1);
+    background-color: $color-colorH1AndFooter;
     width: 358px;
     height: 50px;
     border-radius: 4px;
-    border: 1px solid var(--color-footer-mail-border);
-    color: var(--color-addres-grey);
+    border: 1px solid $color-FooterMailBorder;
+    color: $color-FooterAddresGrey;
     margin-top: 20px;
     outline: none;
     padding: 16px 15px;
@@ -95,8 +95,8 @@
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0, 6em;
-    color: var(--color-white);
-    background-color: var(--color-mainblue);
+    color: $color-mainWhite;
+    background-color: $color-mainBlue;
     border-radius: 4px;
     padding: 10px 42px;
     border: 0;
@@ -106,7 +106,7 @@
   }
 
   &__svg-send {
-    fill: var(--color-white);
+    fill: $color-mainWhite;
     position: relative;
     left: 8px;
     top: 5px;

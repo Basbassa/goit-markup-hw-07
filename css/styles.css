@@ -154,7 +154,9 @@ a {
 
 /* main-page  */
 
-.headlamp__box-h1 {
+
+
+.headlamp {
   max-width: 1600px;
   background-image: url("../images/banners/main-banner.jpg"),
     linear-gradient(90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%);
@@ -202,6 +204,10 @@ a {
 }
 
 .lorem {
+
+}
+
+.lorem__ul {
   list-style-type: none;
   display: flex;
 }
@@ -238,7 +244,10 @@ a {
   padding-top: 94px;
 }
 
-.skills__ {
+.skills {
+}
+
+.skills__ull {
   list-style-type: none;
   display: flex;
   gap: 30px;
@@ -297,10 +306,12 @@ a {
 }
 
 .team__description--occupation {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0, 3em;
   text-align: center;
+  font-style: normal;
   padding-bottom: 30px;
 }
 
@@ -347,10 +358,15 @@ a {
 }
 
 .clients {
+
+}
+
+.clients__ul {
   fill: var(--color-social-icons);
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  
 }
 
 .clients__icons {
@@ -701,15 +717,6 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/*
-.modal__modal-form:has (> .modal__my-input:hover),
-.modal__modal-form:has (> .modal__my-input:focus),
-.modal__modal-form:has (> .modal__my-input:active) {
-  fill: var(--color-mainblue);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} */
 
 .modal__focus-fill-ic:focus-within {
   fill: var(--color-mainblue);

@@ -1,5 +1,5 @@
 .logo__web {
-  color: var(--color-mainblue);
+  color: $color-mainBlue;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
@@ -7,13 +7,13 @@
 }
 
 .logo__studio {
-  color: var(--color-studio);
+  color: $color-LogoStudio;
   font-weight: 400;
   font-size: 26px;
   line-height: 1.17;
   margin-right: 93px;
 
   &--white {
-    color: var(--color-white);
+    color: $color-mainWhite;
   }
 }
